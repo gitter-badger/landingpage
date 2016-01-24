@@ -2,6 +2,8 @@ body
   background rd-white
   font-family rd-paragraph
   color rd-brown
+  width 100%
+  height 100%
 
 .poly
   position absolute
@@ -11,7 +13,6 @@ body
   img
     margin-top 23px
     margin-left 23px
-
 
 .header
   background-image url(../img/bg.jpg)
@@ -49,8 +50,28 @@ body
       text-transform uppercase
       font-size 1em
 
+main
+  width 1120px
+  height auto
+  margin 0 auto
+  display -webkit-box
+  display -webkit-flex
+  display flex
+  -webkit-flex-flow row wrap
+  flex-flow row wrap
+  -webkit-justify-content space-between
+  justify-content space-between
+  @media (max-width: 980px)
+    width 100%
+
+.content
+  max-width 70%
+
+.form
+  max-width 30%
+
 footer
   width 100%
   height 30vh
-  colro rd-white
+  color rd-white
   background-color rd-brown

@@ -1,0 +1,29 @@
+.icon-gear
+  width 75px
+  height auto
+
+//gears
+.gear-one
+.gear-two
+.gear-three
+  -webkit-animation rotation-gear 4s infinite linear
+  -moz-animation rotation-gear 4s infinite linear
+  -o-animation rotation-gear 4s infinite linear
+  animation rotation-gear 4s infinite linear
+  -webkit-transform-origin 50% 50%
+  -moz-transform-origin 50% 50%
+  transform-origin 50% 50%
+
+.gear-one
+  fill rd-light-blue
+
+.gear-two
+  fill rd-red
+
+.gear-three
+  fill rd-green
+
+@keyframes rotation-gear {
+  from {transform: rotate(0deg)}
+  to {transform: rotate(359deg)}
+}

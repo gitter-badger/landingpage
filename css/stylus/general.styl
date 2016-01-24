@@ -63,9 +63,17 @@ main
   justify-content space-between
   @media (max-width: 980px)
     width 100%
+    -webkit-flex-flow column wrap
+    flex-flow column wrap
+    -webkit-justify-content space-between
+    justify-content space-between
+
 
 .content
-  max-width 70%
+  width 70%
+  @media (max-width: 980px)
+    width 95%
+    margin 0 auto
 
 article
   margin 50px auto

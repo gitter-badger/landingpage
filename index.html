@@ -169,12 +169,32 @@
         </article>
       </div><!-- end content -->
       <div class="form">
+        <header>
+          <h2>Faça o download grátis aqui!</h2>
+          <p>
+            Basta preencher o formulário abaixo
+          </p>
+        </header>
         <form class="" action="envia.php" method="post">
-          <input type="text" name="name" value="" placeholder="Nome">
-          <input type="text" name="site" value="" Placeholder="Site da Empresa">
-          <input type="email" name="email" value="" placeholder="eMail">
+          <label for="name">Nome*</label>
+          <input type="text" name="name" required>
+          <label for="site">Site da Empresa*</label>
+          <input type="text" name="site" required>
+          <label for="email">E-Mail</label>
+          <input type="email" name="email" required>
+          <label for="conteudo">Sua Empresa produz conteúdo?</label>
+          <select name="conteudo" required>
+            <option value="saab">Sim</option>
+            <option value="mercedes">Não</option>
+            <option value="audi">Não, mas planejo começar</option>
+          </select>
           <input type="button" name="name" value="">
         </form>
+        <footer>
+          <p>
+            Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM.
+          </p>
+        </footer>
       </div><!-- end form -->
     </main>
     <footer>

@@ -1,11 +1,26 @@
 .form
   width 30%
+  border-radius 7px
+  border 1px rd-green solid
+  margin 50px auto
   @media (max-width: 980px)
     width 90%
     margin 0 auto
     order -1
 
+.form form
+  display flex
+  flex-flow column wrap
+  justify-content center
+
 .form input[type=text]
+.form input[type=email]
+.form select
   padding 5px
-  width 100%
+  width 90%
   border-radius 5px
+  margin 7px auto
+  color rd-brown
+  border 0px rd-brown solid
+  font-size 1.2em
+  box-shadow 0px 0px 5px rgba(0,0,0,.55)

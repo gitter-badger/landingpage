@@ -1,26 +1,66 @@
 .form
   width 30%
-  border-radius 7px
-  border 1px rd-green solid
+  border-radius 5px
   margin 50px auto
+  display -webkit-box
+  display -webkit-flex
+  display flex
+  -webkit-flex-flow column wrap
+  flex-flow column wrap
+  -webkit-justify-content space-between
+  justify-content space-between
+  background rd-cloud
   @media (max-width: 980px)
     width 90%
     margin 0 auto
     order -1
+.form header
+  background rd-green
+  color rd-white
+  border-radius 5px 5px 0 0
+  h2
+    padding 15px
+    font-family rd-title-alt
+    font-size 1.3em
+  p
+    padding 0 0 15px 15px
+    font-size .8em
 
 .form form
   display flex
   flex-flow column wrap
   justify-content center
 
+.form label
+  font-size .8em
+  margin-left 15px
+
 .form input[type=text]
 .form input[type=email]
 .form select
   padding 5px
   width 90%
-  border-radius 5px
+  border-radius 3px
   margin 7px auto
   color rd-brown
   border 0px rd-brown solid
-  font-size 1.2em
+  font-size .9em
   box-shadow 0px 0px 5px rgba(0,0,0,.55)
+
+.form button
+  width 200px
+  margin 10px auto
+  padding 10px
+  color rd-white
+  background rd-red
+  border-radius 5px
+  border 0
+  border-bottom 4px #c0392b solid
+
+.form footer
+  width 100%
+  height auto
+  border-radius 0 0 5px 5px
+  p
+    padding 15px
+    font-size .8em

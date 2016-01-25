@@ -22,7 +22,7 @@
       <p>
         Um eBook para sua empresa começar a gerar resultados reais no Facebook + Checklist para você começar hoje
       </p>
-      <a href="#signin">Clique e adquiria seu eBook gratuíto</a>
+      <a href="#signin" id="sign">Clique e adquiria seu eBook gratuíto</a>
     </header>
     <main id="signin">
       <div class="content">
@@ -185,9 +185,10 @@
           <input type="email" name="email" required>
           <label for="conteudo">Sua Empresa produz conteúdo?*</label>
           <select name="conteudo" required>
-            <option value="saab">Sim</option>
-            <option value="mercedes">Não</option>
-            <option value="audi">Não, mas planejo começar</option>
+            <option value="não respondido">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="não">Não</option>
+            <option value="planeja começar">Não, mas planejo começar</option>
           </select>
           <button type="submit" form="form1" value="Submit">Receber o eBook Gratuíto</button>
         </form>
@@ -202,12 +203,30 @@
       <div class="wrapper">
         <img src="img/brand.png" alt="Resultados Digitais Brand" />
         <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Linkedin</li>
-          <li>Google+</li>
+          <li>
+            <a href="http://www.resultadosdigitais.com.br" target="_blank">Site</a>
+          </li>
+          <li>
+            <a href="https://facebook.com/resultadosdigitais" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/ResDigitais" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#" target="_blank">Google+</a>
+          </li>
         </ul>
       </div>
+      <div class="scrollup">
+        <p>
+          Voltar ao topo
+        </p>
+      </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/call.js"></script>
   </body>
 </html>

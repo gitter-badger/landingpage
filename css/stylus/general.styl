@@ -57,6 +57,9 @@ body
     border-bottom 3px #16a085 solid
     @media (max-width: 767px)
       font-size .8em
+    &:hover
+      background #16a085
+      border-bottom 3px rd-green solid
   .title
     h1
       font-family rd-title
@@ -143,6 +146,21 @@ footer
     justify-content space-between
     -webkit-aling-items center
     align-items center
+    ul
+      li
+        border-right 1px rd-white solid
+        padding-right 15px
+        margin-left 15px
+        list-style none
+        display inline-block
+        &:last-child
+          border 0
+          padding-right 0
+    a
+      color rd-white
+      text-decoration none
+      &:hover
+        color rd-red
     @media (max-width: 980px)
       width 100%
       height auto

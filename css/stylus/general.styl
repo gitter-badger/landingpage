@@ -132,6 +132,7 @@ footer
   width 100%
   height auto
   background-color rd-brown
+  padding 50px 0
   .wrapper
     width 1100px
     height 30vh
@@ -148,14 +149,20 @@ footer
     align-items center
     ul
       li
-        border-right 1px rd-white solid
-        padding-right 15px
         margin-left 15px
         list-style none
         display inline-block
-        &:last-child
-          border 0
-          padding-right 0
+        &:not(:last-child)
+          border-right 1px rd-white solid
+          padding-right 15px
+          @media (max-width: 980px)
+            border 0
+            padding 0
+        @media (max-width: 980px)
+          display block
+          margin 15px auto
+          text-align center
+          line-height 30px
     a
       color rd-white
       text-decoration none
@@ -164,5 +171,6 @@ footer
     @media (max-width: 980px)
       width 100%
       height auto
+      padding 50px auto
       -webkit-flex-flow column warp
       flex-flow column wrap

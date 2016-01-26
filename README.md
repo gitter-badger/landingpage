@@ -10,4 +10,4 @@ Após muito apanhar, fica o sentimento...
 
 ![Hue](img/acabou.gif)
 
-Obrigado!
+Obrigado! :)

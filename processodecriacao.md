@@ -102,14 +102,25 @@ Tenho conhecimentos sólidos em Bootstrap, mas deixei de usa-lo, acabei me adapt
 ##5. Referências
 
 Apresentação - https://support.office.com/pt-br/article/Alterar-o-tamanho-de-seus-slides-040a811c-be43-40b9-8d04-0de5ed79987e
+
 Webinar - https://www.youtube.com/watch?v=B7cqjjWGyP8
+
 Fedora - https://getfedora.org/pt_BR/
+
 Wordpress - http://wordpress.org
+
 Stylus - http://stylus-lang.com
+
 Gulp - http://gulpjs.com/
+
 Jeet.gs - http://jeet.gs/
+
 Sublime Text 3 - https://www.sublimetext.com/
+
 Vim - http://www.vim.org/
+
 Palestras - http://free-time.github.io/
+
 rdraw - https://github.com/ResultadosDigitais/rdraw
+
 Cores - http://viverdeblog.com/psicologia-das-cores/

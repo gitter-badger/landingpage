@@ -8,6 +8,6 @@ Este projeto foi fundamental para melhorar vários pontos profissionais na minha
 
 Após muito apanhar, fica o sentimento...
 
-![Hue](img/acabou.gif)
+![Hue](others/acabou.gif)
 
 Obrigado! :)

@@ -1,4 +1,4 @@
-# Landing Page [![Build Status](https://travis-ci.org/meche/landingpage.svg?branch=master)](https://travis-ci.org/meche/landingpage)
+# Landing Page
 
 More one project
 

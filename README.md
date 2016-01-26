@@ -6,7 +6,7 @@ Este projeto foi fundamental para melhorar vários pontos profissionais na minha
 
 [Aqui](https://github.com/meche/landingpage/tree/master/wireframe) encontramos o esboço, onde tudo começou, o *wireframe*.
 
-E finalmente,[neste link](https://github.com/landingpage/blob/master/listadesugestoes.md), a *lista de sugestões*.
+E finalmente,[neste link](https://github.com/meche/landingpage/blob/master/listadesugestoes.md), a *lista de sugestões*.
 
 Após muito apanhar, fica o sentimento...
 

@@ -1,6 +1,80 @@
 .headerDownload
-  background rd-brown
+  background-image url(../img/bg.jpg)
+  background-size cover
+  background-position center
+  background-attachment fixed
+  width 100%
+  min-height 100vh
+  margin 0 auto
+  color rd-white
   @extend .headers-row
+  -webkit-align-items center
+  align-items center
+  @media (max-width: 980px)
+    -webkit-flex-flow column wrap
+    flex-flow column wrap
+  .thanksDownload
+    width 40vw
+    height 380px
+    @extend .headers-columns
+    @media (max-width: 980px)
+      width 90%
+      height auto
+      margin-top 75px
+    h1
+      font-family rd-title
+      font-size 2.5em
+      @media (max-width: 980px)
+        font-size 1.8em
+    h2
+      font-family rd-title-alt
+      font-size 3em
+      @media (max-width: 980px)
+        font-size 1.8em
+    a
+      background rd-green
+      border-radius 5px
+      border-bottom 3px rd-green-sd solid;
+      padding 15px
+      text-transform uppercase
+      text-decoration none
+      color rd-white
+      margin-top 25px
+      &:hover
+        background rd-green-sd
+        border-bottom 3px rd-green solid;
+    .ebookBrand
+      @media (max-width: 980px)
+        width 200px
+        margin 15px auto 0 auto
+    img
+      @media (max-width: 980px)
+        width 100%
+  .rdstation
+    width 40vw
+    height 500px
+    @extend .headers-columns
+    @media (max-width: 980px)
+      margin 50px auto
+      width 90%
+      height auto
+      iframe
+        width 100%
+    h1
+      font-family rd-title-alt
+      font-size 1.8em
+    a
+      background rd-green
+      border-radius 5px
+      border-bottom 3px rd-green-sd solid;
+      padding 15px
+      text-transform uppercase
+      text-decoration none
+      color rd-white
+      margin-top 25px
+      &:hover
+        background rd-green-sd
+        border-bottom 3px rd-green solid;
 
 .wrapCards
   width 100%

@@ -13,3 +13,10 @@ Após muito apanhar, fica o sentimento...
 ![Hue](others/acabou.gif)
 
 Obrigado! :)
+
+####Todo
+
+- Social hub icons (landing page)
+- 4 more icons in svg (landing page)
+- 3 pages on eBook
+- Form php

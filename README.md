@@ -1,5 +1,5 @@
 # Landing Page
 
-More one project
+![Hue](img/acabou.gif)
 
 coming soon - documentation

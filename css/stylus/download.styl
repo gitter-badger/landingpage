@@ -1,0 +1,59 @@
+.headerDownload
+  background rd-brown
+
+.wrapCards
+  width 100%
+  height auto
+  display -webkit-box
+  display -webkit-flex
+  display flex
+  -webkit-flex-flow row wrap
+  flex-flow row wrap
+  -webkit-justify-content space-around
+  justify-content space-around
+  -webkit-align-items stretch
+  align-items stretch
+  .cards
+    display -webkit-box
+    display -webkit-flex
+    display flex
+    -webkit-flex-flow column wrap
+    flex-flow column wrap
+    -webkit-justify-content space-between
+    justify-content space-betweem
+    -webkit-align-items center
+    align-items center
+    width 220px
+    @media (max-width: 700px)
+      &:not(:last-child)
+        margin-bottom 25px
+    img
+      width 40%
+      height auto
+      border-radius 50%
+      margin 15px auto
+    blockquote
+      width 95%
+      padding 5px
+      font-family rd-paragraph
+      font-size .9em
+      margin-bottom 15px
+      border-left 5px solid rgba(189, 195, 199,.8)
+    span
+      font-family rd-title-alt
+      font-size .9em
+      font-style italic
+      &::before
+        content '\2014 \00A0'
+    a
+      background rd-green
+      widht 60%
+      padding 10px
+      border-radius 5px
+      margin-top 15px
+      color rd-white
+      border-bottom 3px rd-green-sd solid
+      text-decoration none
+      &:hover
+        background rd-green-sd
+        border-bottom 3px rd-green solid

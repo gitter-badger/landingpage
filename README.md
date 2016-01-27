@@ -1,5 +1,7 @@
 # Landing Page
 
+[![Join the chat at https://gitter.im/meche/landingpage](https://badges.gitter.im/meche/landingpage.svg)](https://gitter.im/meche/landingpage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 *projeto hospedado [aqui](http://allcont.com.br/ebook)*
 
 Este projeto foi fundamental para melhorar vários pontos profissionais na minha carreira, a forma de pensar as páginas, como tratar o CSS, adversidades no meio do projeto, tempo de execução, entre outros desafios.
